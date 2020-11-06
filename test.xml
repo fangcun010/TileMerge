@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tileset name="test" width="3" height="4" tilewidth="32" tileheight="32" background="#ff000000">
+	<text content="1" color="#ff0000ff"/>
+	<text content="2" color="#ff0000ff"/>
+	<text content="3" color="#ff0000ff"/>
+	<text content="4" color="#ff0000ff"/>
+	<image source="1.png"/>
+	<image source="2.png"/>
+	<image source="3.png"/>
+	<image source="4.png"/>
+	<image source="5.png"/>
+	<image source="6.png"/>
+	<image source="7.png"/>
+</tileset>
