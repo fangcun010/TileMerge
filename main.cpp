@@ -215,7 +215,7 @@ QImage HandleImage(TileSet &tile_set,QXmlStreamReader &reader)
 
     if(image_info.has_transparent_color)
     {
-        QColor color=qRgba(0,0,0,0);
+        QColor color(0,0,0,0);
         for(auto y=0;y<tile_image.height();y++)
             for(auto x=0;x<tile_image.width();x++)
                 if(tile_image.pixelColor(x,y)==image_info.transparent_color)
